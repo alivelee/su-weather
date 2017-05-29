@@ -1,6 +1,8 @@
 # Su-Weather
 ![Imgur](http://i.imgur.com/1IYFXZB.png)
 A Weather Application based on React.js and use Material Design
+
+[Online Demo On Surge.sh](gaudy-effect.surge.sh)
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development 
@@ -32,7 +34,7 @@ npm install //install dependencies
 npm start //Open localost:3000 to see it
 
 ```
-The rest your can check my [Project Site](https://alivelee.github.io/Skinny-grid/index.html)
+Or [Online Demo](gaudy-effect.surge.sh)
 
 ## TODOS
 
