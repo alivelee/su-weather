@@ -2,7 +2,7 @@
 ![Imgur](http://i.imgur.com/1IYFXZB.png)
 A Weather Application based on React.js and use Material Design
 
-[Online Demo On Surge.sh](gaudy-effect.surge.sh)
+[Online Demo On Surge.sh](http://gaudy-effect.surge.sh)
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development 
