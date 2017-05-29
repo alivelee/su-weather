@@ -18,7 +18,11 @@ nvm install node //install latest node includes npm
 ### Installing
 
 ```
-git clone 
+git clone https://github.com/alivelee/su-weather.git
+
+cd su-weather
+
+npm install //install dependencies
 
 ```
 
