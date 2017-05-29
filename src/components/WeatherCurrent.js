@@ -9,7 +9,7 @@ const WeatherCurrent = (props) =>
   <section className="wrapper s-grid center direction-column">
     <section className="card s-grid direction-column center">
       <div className="city">
-        <h4><i className="fa fa-map-marker" aria-hidden="true"></i>Null</h4>
+        <h4><i className="fa fa-map-marker" aria-hidden="true"></i>{props.city}</h4>
       </div>
       <span className="s-block time">{unixTimeToDate(props.apiData.time)}</span>
       <i className={'weatherIcon wi wi-forecast-io-' + props.apiData.icon}></i>
@@ -18,7 +18,7 @@ const WeatherCurrent = (props) =>
         <span className="s-block">Feels like {convertFahrenheit(props.apiData.temperature)}<i className="wi wi-celsius"></i></span>
       </div>
       <span className="mainWeather">{props.apiData.summary}</span>
-      <span className="week">{getDay(props.apiData.dt)}</span>
+      <span className="week">{getDay(props.apiData.time)}</span>
       <div className="mainInfo s-block">
         <div className="wind">
           <span><i className={'wind-icon wi wi-wind-beaufort-' + props.apiData.windSpeed}></i>{props.apiData.windSpeed} mph</span>
@@ -26,7 +26,7 @@ const WeatherCurrent = (props) =>
         </div>
       </div>
       <div className="otherInfo s-grid direction-column">
-        <span>Humidity <span>:</span> {props.apiData.humidity}<i className="wi wi-humidity"></i></span>
+        <span>Humidity <span>:</span> {props.apiData.humidity * 100}<i className="wi wi-humidity"></i></span>
       </div>
     </section>
   </section>
