@@ -34,7 +34,7 @@ npm install //install dependencies
 npm start //Open localost:3000 to see it
 
 ```
-Or [Online Demo](gaudy-effect.surge.sh)
+Or [Online Demo](http://gaudy-effect.surge.sh)
 
 ## TODOS
 
