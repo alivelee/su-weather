@@ -23,6 +23,7 @@ class WeatherSwitch extends Component {
     this.state = this.defaultState;
   }
   updateWeather() {
+    this.getLocation();
     this.setState({
       loading:true
     });
