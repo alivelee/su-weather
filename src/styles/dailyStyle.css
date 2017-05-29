@@ -1,0 +1,58 @@
+header {
+  background: #4E6671;
+  text-align: center;
+}
+header h4,
+header span{
+  margin: 0;
+  font-size: 2rem;
+  color: white;
+  font-family: robotoregular;
+}
+header span {
+  text-align: right;
+  padding-right: 10px;
+}
+.daily-week {
+  background: #B8C1C5;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  flex:1;
+  align-self: flex-start;
+  margin-top: -50px;
+  margin-left: 20px;
+}
+.daily-week h4 {
+  margin:10px;
+  color:#F3F5F5;
+  flex: 1 0 0%;
+}
+.daily-card {
+  margin:50px auto;
+}
+.temp {
+  padding-left: 20px;
+  flex: 4 1 auto;
+}
+.other-info {
+  flex: 1 1 auto;
+}
+.other-temp span{
+  margin-right: 20px;
+}
+.main-temp {
+  color: #4E6671;
+  font-size: 2.5rem;
+}
+.main-temp .description {
+  text-align: left;
+  font-size: 2rem;
+}
+.secondary-temp {
+  font-size: 2rem;
+}
+.secondary-temp span {
+  margin-right: 20px;
+}
+.wind i {
+  padding-left: 5px;
+}

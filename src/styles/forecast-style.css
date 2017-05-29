@@ -1,0 +1,22 @@
+.fiveDayForecast {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: robotothin;
+}
+.vertical-card {
+  background: #F4F4F6;
+  margin: 5px;
+  width: 300px;
+  flex:auto;
+}
+.vertical-card .s-block {
+  text-align: center;
+}
+.main-info {
+  font-size: 2rem;
+  padding: 30px;
+}
+.wind span{
+  margin-right: 5px;
+}
