@@ -3,6 +3,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   font-family: robotothin;
+  color:#78868A;
 }
 .vertical-card {
   background: #F4F4F6;
@@ -15,8 +16,11 @@
 }
 .main-info {
   font-size: 2rem;
-  padding: 30px;
+  padding: 20px;
 }
 .wind span{
   margin-right: 5px;
+}
+.other-info {
+  font-size: 1.5rem;
 }

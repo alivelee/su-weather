@@ -158,10 +158,10 @@ body {
 .card {
   background: #F0F1F5;
   font-family: 'robotothin';
-  padding: 30px 0;
+  padding: 40px 0;
   border-radius: 2px;
   width: 90vmin;
-  margin: 20px auto;
+  margin: auto;
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
@@ -172,7 +172,7 @@ span {
   color:#78868A;
 }
 .card .time {
-  margin: 10px 0;
+  margin: -10px 0 10px 0;
   font-size: 2.4em;
 }
 .card .wi-wind {
@@ -196,13 +196,13 @@ span.mainWeather {
   margin: 10px;
 }
 .secondaryTemp {
-  margin-bottom: 50px;
+  margin-bottom: .5rem;
 }
 .wind-icon {
   padding:0 10px;
 }
 .time + .weatherIcon {
-  margin-bottom: 1.2em;
+  margin-bottom: .4em;
 }
 .card:hover {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -216,8 +216,7 @@ span.mainWeather {
 .week {
   color:#9EA3A4;
   font-size: 1.2em;
-  margin-top: -10px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   margin-left: -3px;
 }
 .mainInfo span,
