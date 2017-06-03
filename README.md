@@ -2,7 +2,6 @@
 ![Imgur](http://i.imgur.com/1IYFXZB.png)
 A Weather Application based on React.js and use Material Design
 
-[Online Demo On Surge.sh](http://gaudy-effect.surge.sh)
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development 
@@ -30,11 +29,24 @@ npm install //install dependencies
 
 ### Quick start
 
-```
-npm start //Open localost:3000 to see it
+Thanks to the [create-react-app](https://github.com/facebookincubator/create-react-app),we will have a configuration-free dev experience.
 
-```
-Or [Online Demo](http://gaudy-effect.surge.sh)
+To get started, please clone this git repository and then run npm install once under the project top-level directory.
+
+
+### `yarn start`
+
+
+Runs the app in the development mode, using the Webpack-provided "development server".
+
+
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.  
+
+### `npm run server`
+
+This starts the API server on port 3001, which listens for requests from the client, and proxies to Dark Sky API.
+This approach has several benefits, for example: hide the [Dark Sky API key](https://darksky.net/dev/docs/faq#sublicensing), 
+and avoid [CORS issues](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS) as well. 
 
 ## TODOS
 
