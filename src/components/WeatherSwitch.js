@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { OPENWEATHER,OPENWEATHERURL } from '../weatherApis/api';
-import { DARKSKYAPI, DARKSKYKEY} from '../weatherApis/api';
 import { getCityName } from '../helpers/utils';
 import WeatherPanel from './WeatherPanel';
 import WeatherCurrent from './WeatherCurrent';
@@ -8,8 +7,6 @@ import WeatherDaily from './WeatherDaily';
 import NotFound from './NotFound';
 import axios from 'axios';
 import PropTypes from 'prop-types';
-let latitude = null;
-let longitude = null;
 class WeatherSwitch extends Component {
   defaultState = {
     city:null,
@@ -33,14 +30,14 @@ class WeatherSwitch extends Component {
     this.setState({
       loading:true
     });
-    axios.get(`${DARKSKYAPI}${DARKSKYKEY}/${this.state.latitude},${this.state.longitude}`)
+    axios.get(`/api/darksky?latitude=${this.state.latitude}&longitude=${this.state.longitude}`)
       .then(res => {
         // const city = res.data.city?res.data.city:res.data.name;
         // const city = (res.data.timezone);
         const currentData = res.data.currently;
         const dailyData = res.data.daily;
         const hourlyData = res.data.hourly;
-        const allData = res.data
+        const allData = res.data;
         this.setState({
           // city,
           currentData,
